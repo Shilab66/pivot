@@ -1,0 +1,15 @@
+.slide:hover,
+.slide:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+$colors: (
+    slide: #8fc866, 
+);
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
