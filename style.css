@@ -1,4 +1,12 @@
 body{
-    width: 450px;
-    height:450px;
+	width: 300px;
+	height:200px;
+	text-align: center;
+	background-color: #070229;
+}
+
+h1{
+	font-family: 'Dosis';font-size: 22px;
+	text-shadow: 2px 4px 30px #924DF9;
+	color: white;
 }
