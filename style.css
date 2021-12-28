@@ -2,11 +2,39 @@ body{
 	width: 300px;
 	height:200px;
 	text-align: center;
-	background-color: #070229;
+	background-color: #070227;
 }
 
 h1{
-	font-family: 'Dosis';font-size: 22px;
-	text-shadow: 2px 4px 30px #924DF9;
+	text-transform: uppercase;
+        font-weight: 700;
+	font-family: 'Dosis';
+        font-size: 22px;
+	text-shadow: 2px 4px 20px #b892f0;
 	color: white;
+}
+
+button {
+	border-radius: 12px;
+	font-family: 'Dosis';
+	text-transform: uppercase;
+	background-color: rgba(255, 0, 0, 0);
+	border: 2px solid #924DF9;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	padding: 10px;
+	margin: 4px 2px;
+}
+
+button:hover {
+	animation-name: example;
+	animation-duration: 1s;
+}
+
+@keyframes example {
+  from {background-color: rgba(255, 0, 0, 0)}
+  to {background-color: #924DF9}
 }
