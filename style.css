@@ -27,14 +27,9 @@ button {
 	font-size: 12px;
 	padding: 10px;
 	margin: 4px 2px;
+	transition: background-color 0.5s;
 }
 
 button:hover {
-	transition: all 0.2s background-color: #924DF9 0s;
-}
-
-@keyframes example {
-  0% {background-color: rgba(255, 0, 0, 0)}
-  50% {background-color: #924DF9}
-  100% {background-color: #924DF9}
+	background-color: #924DF9;
 }
