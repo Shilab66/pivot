@@ -27,17 +27,10 @@ button {
 	font-size: 12px;
 	padding: 10px;
 	margin: 4px 2px;
-	transition: 0.3s;
 }
 
 button:hover {
-	animation-name: example;
-	animation-duration: 1s;
-	background-color: #924DF9
-}
-
-button:after {
-	background-color: orange;
+	transition: all 0.2s background-color: #924DF9 0s;
 }
 
 @keyframes example {
