@@ -13,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.tabs.create({ url: newURL2 });
     }, false);
     
+    settingButton.addEventListener('click', function(){
+        chrome.tabs.create({ url: 'options.html'});
+    }, false);
+    
     //settingButton.addEventListener('click', function(){ chrome.action.setPopup(blank.html);}, false);
  
 }, false);
