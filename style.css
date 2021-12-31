@@ -5,10 +5,11 @@ body{
 	background-color: #070227;
 }
 
-h1{
+h1, h2{
 	text-transform: uppercase;
         font-weight: 700;
 	font-family: 'Dosis';
+	text-align: center;
         font-size: 22px;
 	text-shadow: 2px 4px 20px #b892f0;
 	color: white;
