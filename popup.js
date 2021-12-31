@@ -13,8 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.tabs.create({ url: newURL2 });
     }, false);
     
-    settingButton.addEventListener('click', function(){
-        chrome.browserAction.setPopup({popup: "blank.html"});
-    }, false);
+    //settingButton.addEventListener('click', function(){ chrome.action.setPopup(blank.html);}, false);
  
 }, false);
