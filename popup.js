@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, false);
     
     settingButton.addEventListener('click', function(){
-        chrome.browserAction.setPopup({popup: "logged_in.html"});
+        chrome.browserAction.setPopup({popup: "blank.html"});
     }, false);
  
 }, false);
