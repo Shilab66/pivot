@@ -13,5 +13,9 @@
    "activeTab", 
    "tabs"
    ],
-  "options_page": "options.html"
+  "options_page": "options.html",
+  "content_scripts": [{
+     "matches": ["https://*/PXP2_Login_Student*"],
+     "js" : ["content.js"]
+  }]
 }
