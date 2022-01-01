@@ -20,5 +20,23 @@ document.addEventListener('DOMContentLoaded', function() {
     /*settingButton.addEventListener('click', function(){ 
 	chrome.action.setPopup({popup: "blank.html"});
     }, false);*/
+
+
+    key = 1
+    value  = 100
+    value2 = 200
+
+
+    chrome.storage.sync.set({key: value}, function() {
+  	alert('Value is set to ' + value);
+    });
+
+    chrome.storage.sync.set({key: value2}, function() {
+  	alert('Value is updated to ' + value2);
+    });
+
+    chrome.storage.sync.get(['key'], function(result) {
+  	alert('Value currently is ' + result.key);
+    });
  
 }, false);
