@@ -3,8 +3,8 @@ var password = document.getElementById("ctl00_MainContent_password");
 var form = document.getElementById("aspnetForm");
 
 //alert("webpage opened")
-username.value = "123456"
-password.value = "password"
+username.value = "176972"
+password.value = "bdd9zx"
 form.submit();
 
 username.addEventListener("click", () => {
