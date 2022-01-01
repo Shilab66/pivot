@@ -1,9 +1,11 @@
 var username = document.getElementById("ctl00_MainContent_username");
-var password = document.getElementById("ctl00_MainContent_username");
+var password = document.getElementById("ctl00_MainContent_password");
+
+alert("webpage opened")
 
 username.addEventListener("click", () => {
-	alert('username clicked');
+	console.log('username clicked');
 });
 password.addEventListener("click", () => {
-	alert('password clicked');
+	console.log('password clicked');
 });
