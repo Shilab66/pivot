@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.tabs.create({ url: 'options.html'});
     }, false);
     
-    //settingButton.addEventListener('click', function(){ chrome.action.setPopup(blank.html);}, false);
+    /*settingButton.addEventListener('click', function(){ 
+	chrome.action.setPopup({popup: "blank.html"});
+    }, false);*/
  
 }, false);
