@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, false);*/
 
 
-    key = 1
+    /*key = 1
     value  = 100
     value2 = 200
 
@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     chrome.storage.sync.get(['key'], function(result) {
   	alert('Value currently is ' + result.key);
-    });
+    });*/
  
 }, false);
