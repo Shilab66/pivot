@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     /*key = 1
     value  = 100
-    value2 = 200
+    const value2 = ["hello", "world"]
 
 
     chrome.storage.sync.set({key: value}, function() {
