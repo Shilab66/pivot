@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		chrome.storage.sync.get(["a"], function(result) {
 			value = result["a"]
-        		alert(value[0]+ value[1])
+        		//alert(value[0]+ value[1])
 		});
         }, false);
 }, false);
