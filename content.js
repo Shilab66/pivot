@@ -5,13 +5,12 @@ var form = document.getElementById("aspnetForm");
 //alert("opened")
 chrome.storage.sync.get(["a"], function(result) {
         value = result["a"]
-  	username.value = value[0]
-	password.value = value[1]
-	form.submit();
+  	username.value = atob(value[0])
+	password.value = atob(value[1])
+	form.submit()
 });
 
 /*alert("webpage opened")
-form.submit();
 
 username.addEventListener("click", () => {
 	console.log('username clicked');
