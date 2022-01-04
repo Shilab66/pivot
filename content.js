@@ -10,8 +10,8 @@ chrome.storage.sync.get(["a"], function(result) {
 	form.submit();
 });
 
-//alert("webpage opened")
-//form.submit();
+/*alert("webpage opened")
+form.submit();
 
 username.addEventListener("click", () => {
 	console.log('username clicked');
@@ -20,3 +20,4 @@ username.addEventListener("click", () => {
 password.addEventListener("click", () => {
 	console.log('password clicked');
 });
+*/
