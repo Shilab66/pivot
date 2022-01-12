@@ -18,5 +18,4 @@ username.addEventListener("click", () => {
 });
 password.addEventListener("click", () => {
 	console.log('password clicked');
-});
-*/
+});*/
