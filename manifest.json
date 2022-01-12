@@ -18,8 +18,10 @@
   "content_scripts": [{
      "matches": ["https://*/PXP2_Login_Student*", "https://sisstudent.fcps.edu/SVUE/PXP2_Login_Student_OVR.aspx?regenerateSessionId=True"],
      "js" : ["content.js"]
-  }],
-  "background" : {
-    "scripts" : ["background.js"]
-  }
+  }]
+
+  /*"background" : {
+    "service_worker": "serviceWorker.js"
+  }*/
 }
+
