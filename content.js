@@ -2,6 +2,9 @@ var username = document.getElementById("ctl00_MainContent_username");
 var password = document.getElementById("ctl00_MainContent_password");
 var form = document.getElementById("aspnetForm");
 
+username.value = ""
+password.value = ""
+
 //alert("opened")
 chrome.storage.sync.get(["a"], function(result) {
         value = result["a"]
@@ -19,3 +22,4 @@ username.addEventListener("click", () => {
 password.addEventListener("click", () => {
 	console.log('password clicked');
 });*/
+
