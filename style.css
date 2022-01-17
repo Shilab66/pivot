@@ -1,4 +1,4 @@
-//all
+/* all */
 body{
 	width: 300px;
 	height:200px;
@@ -7,7 +7,7 @@ body{
 	font-family: 'Dosis';
 }
 
-//text
+/* text */
 h1, h2{
 	text-transform: uppercase;
         font-weight: 700;
@@ -22,7 +22,7 @@ h2{
 	font-size: 16px;
 }
 
-//buttons
+/* buttons */
 button {
 	border-radius: 12px;
 	font-family: 'Dosis';
@@ -43,7 +43,7 @@ button:hover {
 	background-color: #924DF9;
 }
 
-//input field
+/* input field */
 .field__input{ 
   --uiFieldPlaceholderColor: var(--fieldPlaceholderColor, #767676);
   
@@ -180,7 +180,7 @@ button:hover {
   grid-gap: 30px;
 }
 
-//switch
+/* switch */
 @supports(-webkit-appearance: none) or (-moz-appearance: none) {
   input[type='checkbox']{
     --active: #275EFE;
