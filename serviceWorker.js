@@ -12,3 +12,13 @@ chrome.storage.sync.get(["a"], function(result) {
 });*/
 
 console.log("hello")
+
+var request = new XMLHttpRequest();
+request.open("GET", "https://www.youtube.com/");
+request.onload = function () {
+  var data = request.responseText;
+  const recommendDiv = data.getElementsByClassName("promo-title style-scope ytd-background-promo-renderer")
+};
+request.send();
+
+console.log(recommendDiv)
