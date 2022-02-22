@@ -1,5 +1,3 @@
-//currently testing with youtube
-
 /*var doc = "https://md-mcps-psv.edupoint.com/PXP2_Login_Student.aspx?Logout=1&regenerateSessionId=True"
 
 var username = doc.getElementById("ctl00_MainContent_username");
